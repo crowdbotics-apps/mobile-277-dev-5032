@@ -9,7 +9,6 @@ import BlankScreen4709Navigator from '../features/BlankScreen4709/navigator';
 import BlankScreen4708Navigator from '../features/BlankScreen4708/navigator';
 import BlankScreen4707Navigator from '../features/BlankScreen4707/navigator';
 import BlankScreen4706Navigator from '../features/BlankScreen4706/navigator';
-import BlankScreen4675Navigator from '../features/BlankScreen4675/navigator';
 import EmailAuth4667Navigator from '../features/EmailAuth4667/navigator';
 import EmailAuthNavigator from '../features/EmailAuth/navigator';
 
@@ -26,7 +25,6 @@ BlankScreen4709: { screen: BlankScreen4709Navigator },
 BlankScreen4708: { screen: BlankScreen4708Navigator },
 BlankScreen4707: { screen: BlankScreen4707Navigator },
 BlankScreen4706: { screen: BlankScreen4706Navigator },
-BlankScreen4675: { screen: BlankScreen4675Navigator },
 EmailAuth4667: { screen: EmailAuth4667Navigator },
 EmailAuth: { screen: EmailAuthNavigator },
 
