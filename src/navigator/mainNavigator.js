@@ -5,6 +5,7 @@ import {createDrawerNavigator} from 'react-navigation-drawer';
 import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
+import BlankScreen4706Navigator from '../features/BlankScreen4706/navigator';
 import BlankScreen4675Navigator from '../features/BlankScreen4675/navigator';
 import EmailAuth4667Navigator from '../features/EmailAuth4667/navigator';
 import EmailAuthNavigator from '../features/EmailAuth/navigator';
@@ -18,6 +19,7 @@ const AppNavigator = {
       screen: SplashScreen
     },
     //@BlueprintNavigationInsertion
+BlankScreen4706: { screen: BlankScreen4706Navigator },
 BlankScreen4675: { screen: BlankScreen4675Navigator },
 EmailAuth4667: { screen: EmailAuth4667Navigator },
 EmailAuth: { screen: EmailAuthNavigator },
